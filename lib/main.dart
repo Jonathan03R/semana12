@@ -24,6 +24,12 @@ class MyApp extends StatelessWidget {
         ),
         body: Center(
           child: Container(
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(10),
+              color: Colors.white,
+              border: Border.all(color: Colors.deepPurple, width: 2.0),
+            ),
+            padding: const EdgeInsets.all(20.0),
             width: 400.0,
             height: 300.0,
             child: Sparkline(
